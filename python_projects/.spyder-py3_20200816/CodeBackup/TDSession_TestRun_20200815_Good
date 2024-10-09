@@ -1,0 +1,71 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Aug 12 15:17:27 2020
+
+@author: Owner
+"""
+#from multiprocessing import Pool
+from TDApi import TDClient
+import time
+#from multiprocessing import Pool
+#import multiprocessing as mul
+#################
+
+
+
+#TD_TuongSession = TDClient()
+#TD_TuongSession = TDClient(config_file = r"C:\Users\Owner\.spyder-py3\Tuong_Config.py", otherarg = "NONE")
+#TD_TuongSession.useRefreshToken_renewAccessKey()
+#TD_TuongSession.useAuthCode_getAccessKey()
+#TD_AnSession = TDClient(config_file = r"C:\Users\Owner\.spyder-py3\An_Config.py", otherarg = "NONE")    
+#TD_TuongSession.useAuthCode_getAccessKey();
+#print(TD_TuongSession.get_refreshToken())
+#print(TD_TuongSession.accessToken_expires_at())
+#print(TD_TuongSession.refreshToken_expires_at())
+#print(TD_TuongSession.get_accessToken())
+#print(TD_TuongSession.accessToken_ttl())
+#print(TD_TuongSession.refreshToken_ttl())
+#print("Below is new access token and updated ttl")
+#print()
+#print()
+#TD_TuongSession.useRefreshToken_renewAccessKey()
+#print(TD_TuongSession.get_refreshToken())
+#print(TD_TuongSession.accessToken_expires_at())
+#print(TD_TuongSession.refreshToken_expires_at())
+#print(TD_TuongSession.get_accessToken())
+#print(TD_TuongSession.accessToken_ttl())
+#print(TD_TuongSession.refreshToken_ttl())
+
+#del TD_TuongSession  
+if __name__ == '__main__':
+    #freeze_support()
+    mytickers_file = r'C:\Users\Owner\Tickers_lists\deleteme.txt'
+    An_mytickers_file = r'C:\Users\Owner\Tickers_lists\500_tickers.txt'
+    TD_TuongSession = TDClient(config_file = r"C:\Users\Owner\.spyder-py3\Tuong_Config.py", otherarg = "NONE")
+    TD_AnSession = TDClient(config_file = r"C:\Users\Owner\.spyder-py3\An_Config.py", otherarg = "NONE")        
+    TD_TuongSession.dbCreateMultb(tickers_file = mytickers_file)
+    TD_AnSession.dbCreateMultb(tickers_file = An_mytickers_file)
+    initialRuntime = time.time()    
+    index = 0
+    while (index < 1000 and time.time() - initialRuntime < 120):
+    #while index < 5:
+        starttime = time.time()
+        Tuong_large_quote = TD_TuongSession.getQuotes(tickers_file = mytickers_file)
+        #An_large_quote = TD_AnSession.getQuotes(tickers_file = An_mytickers_file)
+        TD_TuongSession.dbInsertMultiple(Tuong_large_quote) 
+        print("That took {} seconds".format(time.time() - starttime))
+        index += 1
+        print("Finish round ", index)
+        print()
+        print()
+        #time.sleep(.1)
+    print()    
+    print()    
+    print("Initial run time is: ", initialRuntime)
+    print("Final_runtime is: ",  time.time())
+    print("That took {} seconds".format(time.time() - initialRuntime))
+    del TD_TuongSession
+
+
+
+

@@ -1,0 +1,2 @@
+C:\Users\Owner\anaconda3\pythonw.exe C:\Users\Owner\.spyder-py3\TDSession_TestRun.py C:\Users\Owner\Tickers_lists\deleteme.txt C:\Users\Owner\.spyder-py3\Tuong_Config.py 1>>C:\Users\Owner\.spyder-py3\stdout.txt 2>>C:\Users\Owner\.spyder-py3\stderr.txt
+C:\Users\Owner\anaconda3\pythonw.exe C:\Users\Owner\.spyder-py3\TDSession_TestRun.py C:\Users\Owner\Tickers_lists\tickerlist1.txt C:\Users\Owner\.spyder-py3\An_Config.py 1>>C:\Users\Owner\.spyder-py3\stdout1.txt 2>>C:\Users\Owner\.spyder-py3\stderr1.txt

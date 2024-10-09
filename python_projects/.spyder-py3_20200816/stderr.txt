@@ -1,0 +1,1996 @@
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\TDSession_TestRun.py", line 33, in <module>
+    Tuong_large_quote = TD_TuongSession.getQuotes(tickers_file = mytickers_file)
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 473, in getQuotes
+    raise KeyError("Can NOT fetch data from via live quote. Make sure tickes_file does NOT contain newline characters")
+KeyError: 'Can NOT fetch data from via live quote. Make sure tickes_file does NOT contain newline characters'
+Traceback (most recent call last):
+  File "C:\Users\Owner\anaconda3\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\Owner\anaconda3\lib\site-packages\urllib3\util\connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\Owner\anaconda3\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Owner\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Owner\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Owner\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 976, in _validate_conn
+    conn.connect()
+  File "C:\Users\Owner\anaconda3\lib\site-packages\urllib3\connection.py", line 308, in connect
+    conn = self._new_conn()
+  File "C:\Users\Owner\anaconda3\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001718E5FEF10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Owner\anaconda3\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\Owner\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 724, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Owner\anaconda3\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.tdameritrade.com', port=443): Max retries exceeded with url: /v1/oauth2/token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001718E5FEF10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 26, in <module>
+    cron_TuongTDSession.useRefreshToken_renewAccessKey()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 371, in useRefreshToken_renewAccessKey
+    self.tda_authReply = requests.post(self.tda_authorization_token_url, headers = self.tda_accessToken_request_headers, data = self.tda_accessToken_request_payload)
+  File "C:\Users\Owner\anaconda3\lib\site-packages\requests\api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Owner\anaconda3\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Owner\anaconda3\lib\site-packages\requests\sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Owner\anaconda3\lib\site-packages\requests\sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Owner\anaconda3\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.tdameritrade.com', port=443): Max retries exceeded with url: /v1/oauth2/token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001718E5FEF10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 323, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 262, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 338, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 277, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 339, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 278, in get_cache
+    raise KeyError ("The file ", self.config['tda_accessToken_cache_file'], " does NOT exists OR stop flag file ", self.config['tda_stop_flag_file'], " is present" )
+KeyError: ('The file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_accessToken_cache.txt', ' does NOT exists OR stop flag file ', 'C:\\Users\\Owner\\.spyder-py3\\.Tuong_TDA_auth_stop.txt', ' is present')
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 346, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 270, in get_cache
+    self.del_stop_flag(full_path_file = self.config['tda_stop_flag_file'], max_ttl = 60)
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 118, in del_stop_flag
+    if self.my_full_path_file == "" or self.max_ttl_allowed == "":
+AttributeError: 'TDClient' object has no attribute 'max_ttl_allowed'
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 21, in <module>
+    if cron_TuongTDSession.refreshToken_ttl() < 2592000:
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 346, in refreshToken_ttl
+    self.my_TDA_cache = self.get_cache()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 270, in get_cache
+    self.del_stop_flag(full_path_file = self.config['tda_stop_flag_file'], max_ttl = 60)
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 118, in del_stop_flag
+    if self.my_full_path_file == "" or self.max_ttl == "":
+AttributeError: 'TDClient' object has no attribute 'max_ttl'
+Traceback (most recent call last):
+  File "C:\Users\Owner\anaconda3\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\Owner\anaconda3\lib\site-packages\urllib3\util\connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\Owner\anaconda3\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Owner\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 670, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Owner\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Owner\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 976, in _validate_conn
+    conn.connect()
+  File "C:\Users\Owner\anaconda3\lib\site-packages\urllib3\connection.py", line 308, in connect
+    conn = self._new_conn()
+  File "C:\Users\Owner\anaconda3\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000002939AD3ED30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Owner\anaconda3\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\Owner\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 724, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Owner\anaconda3\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.tdameritrade.com', port=443): Max retries exceeded with url: /v1/oauth2/token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002939AD3ED30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Owner\.spyder-py3\Cron_TD_RenewAccessToken.py", line 26, in <module>
+    cron_TuongTDSession.useRefreshToken_renewAccessKey()
+  File "C:\Users\Owner\.spyder-py3\TDApi.py", line 391, in useRefreshToken_renewAccessKey
+    self.tda_authReply = requests.post(self.tda_authorization_token_url, headers = self.tda_accessToken_request_headers, data = self.tda_accessToken_request_payload)
+  File "C:\Users\Owner\anaconda3\lib\site-packages\requests\api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Owner\anaconda3\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Owner\anaconda3\lib\site-packages\requests\sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Owner\anaconda3\lib\site-packages\requests\sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Owner\anaconda3\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.tdameritrade.com', port=443): Max retries exceeded with url: /v1/oauth2/token (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002939AD3ED30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))

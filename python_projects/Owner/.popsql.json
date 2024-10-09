@@ -1,0 +1,39 @@
+{
+  "servers": [
+    {
+      "id": "b6fd0be0-df0c-11ea-87b0-6b8f48c4009b",
+      "name": "ngothientuong",
+      "client": "mysql",
+      "host": "TuongDesktop",
+      "port": 3306,
+      "socketPath": null,
+      "user": null,
+      "password": null,
+      "database": "tradingdb",
+      "shareConnection": null,
+      "cloudConnection": false,
+      "oauth": false,
+      "organizationId": null,
+      "snowflakeConnectionType": "usernamePassword",
+      "complete": true
+    },
+    {
+      "id": "cce23c90-d9b8-11ea-9d37-09849c4af32e",
+      "name": "TUONGSQL",
+      "client": "sqlserver",
+      "host": "TuongDesktop",
+      "port": 1433,
+      "socketPath": null,
+      "user": null,
+      "password": null,
+      "database": "tradingdb",
+      "shareConnection": null,
+      "cloudConnection": false,
+      "oauth": false,
+      "organizationId": null,
+      "snowflakeConnectionType": "usernamePassword",
+      "complete": true,
+      "ssl": false
+    }
+  ]
+}

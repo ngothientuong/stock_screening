@@ -1,0 +1,465 @@
+That took 0.1690375804901123 seconds
+Finish round  1
+
+
+That took 0.11403369903564453 seconds
+Finish round  2
+
+
+That took 0.11800765991210938 seconds
+Finish round  3
+
+
+That took 0.15103888511657715 seconds
+Finish round  4
+
+
+That took 0.11200428009033203 seconds
+Finish round  5
+
+
+That took 0.1690387725830078 seconds
+Finish round  6
+
+
+That took 0.12002754211425781 seconds
+Finish round  7
+
+
+That took 0.11020112037658691 seconds
+Finish round  8
+
+
+That took 0.12303352355957031 seconds
+Finish round  9
+
+
+That took 0.10802435874938965 seconds
+Finish round  10
+
+
+That took 0.1505589485168457 seconds
+Finish round  11
+
+
+That took 0.11403393745422363 seconds
+Finish round  12
+
+
+That took 0.12802886962890625 seconds
+Finish round  13
+
+
+That took 0.11402535438537598 seconds
+Finish round  14
+
+
+That took 0.10703420639038086 seconds
+Finish round  15
+
+
+That took 0.1180264949798584 seconds
+Finish round  16
+
+
+That took 0.11260437965393066 seconds
+Finish round  17
+
+
+That took 0.11102843284606934 seconds
+Finish round  18
+
+
+That took 0.14503216743469238 seconds
+Finish round  19
+
+
+That took 0.15303778648376465 seconds
+Finish round  20
+
+
+That took 0.15308046340942383 seconds
+Finish round  21
+
+
+That took 0.14700746536254883 seconds
+Finish round  22
+
+
+That took 0.15503549575805664 seconds
+Finish round  23
+
+
+That took 0.11202526092529297 seconds
+Finish round  24
+
+
+That took 0.16203618049621582 seconds
+Finish round  25
+
+
+That took 0.10652709007263184 seconds
+Finish round  26
+
+
+That took 0.11557745933532715 seconds
+Finish round  27
+
+
+That took 0.11004018783569336 seconds
+Finish round  28
+
+
+That took 0.18032050132751465 seconds
+Finish round  29
+
+
+That took 0.10502409934997559 seconds
+Finish round  30
+
+
+That took 0.11553001403808594 seconds
+Finish round  31
+
+
+That took 0.11102533340454102 seconds
+Finish round  32
+
+
+That took 0.10602450370788574 seconds
+Finish round  33
+
+
+That took 0.11953043937683105 seconds
+Finish round  34
+
+
+That took 0.13860774040222168 seconds
+Finish round  35
+
+
+That took 0.11404538154602051 seconds
+Finish round  36
+
+
+That took 0.11004185676574707 seconds
+Finish round  37
+
+
+That took 0.10206460952758789 seconds
+Finish round  38
+
+
+That took 0.10903191566467285 seconds
+Finish round  39
+
+
+That took 0.15009188652038574 seconds
+Finish round  40
+
+
+That took 0.11448931694030762 seconds
+Finish round  41
+
+
+That took 0.15199756622314453 seconds
+Finish round  42
+
+
+That took 0.12353730201721191 seconds
+Finish round  43
+
+
+That took 0.10443258285522461 seconds
+Finish round  44
+
+
+That took 0.16806530952453613 seconds
+Finish round  45
+
+
+That took 0.11602640151977539 seconds
+Finish round  46
+
+
+That took 0.15204381942749023 seconds
+Finish round  47
+
+
+That took 0.1590871810913086 seconds
+Finish round  48
+
+
+That took 0.10605168342590332 seconds
+Finish round  49
+
+
+That took 0.15105366706848145 seconds
+Finish round  50
+
+
+That took 0.14953899383544922 seconds
+Finish round  51
+
+
+That took 0.11116719245910645 seconds
+Finish round  52
+
+
+That took 0.11355233192443848 seconds
+Finish round  53
+
+
+That took 0.1450812816619873 seconds
+Finish round  54
+
+
+That took 0.12718915939331055 seconds
+Finish round  55
+
+
+That took 0.11109566688537598 seconds
+Finish round  56
+
+
+That took 0.10652947425842285 seconds
+Finish round  57
+
+
+That took 0.12043118476867676 seconds
+Finish round  58
+
+
+That took 0.11355972290039062 seconds
+Finish round  59
+
+
+That took 0.1150352954864502 seconds
+Finish round  60
+
+
+That took 0.10452842712402344 seconds
+Finish round  61
+
+
+That took 0.1460411548614502 seconds
+Finish round  62
+
+
+That took 0.12329387664794922 seconds
+Finish round  63
+
+
+That took 0.1050252914428711 seconds
+Finish round  64
+
+
+That took 0.10302305221557617 seconds
+Finish round  65
+
+
+That took 0.11002802848815918 seconds
+Finish round  66
+
+
+That took 0.14110517501831055 seconds
+Finish round  67
+
+
+That took 0.14104676246643066 seconds
+Finish round  68
+
+
+That took 0.15908145904541016 seconds
+Finish round  69
+
+
+That took 0.10903167724609375 seconds
+Finish round  70
+
+
+That took 0.11853313446044922 seconds
+Finish round  71
+
+
+That took 0.10602641105651855 seconds
+Finish round  72
+
+
+That took 0.12424015998840332 seconds
+Finish round  73
+
+
+That took 0.11203837394714355 seconds
+Finish round  74
+
+
+That took 0.11221933364868164 seconds
+Finish round  75
+
+
+That took 0.10822916030883789 seconds
+Finish round  76
+
+
+That took 0.11913418769836426 seconds
+Finish round  77
+
+
+That took 0.10956525802612305 seconds
+Finish round  78
+
+
+That took 0.14406561851501465 seconds
+Finish round  79
+
+
+That took 0.1560525894165039 seconds
+Finish round  80
+
+
+That took 0.09802651405334473 seconds
+Finish round  81
+
+
+That took 0.11102962493896484 seconds
+Finish round  82
+
+
+That took 0.10832738876342773 seconds
+Finish round  83
+
+
+That took 0.1470639705657959 seconds
+Finish round  84
+
+
+That took 0.11425089836120605 seconds
+Finish round  85
+
+
+That took 0.14246654510498047 seconds
+Finish round  86
+
+
+That took 0.14914774894714355 seconds
+Finish round  87
+
+
+That took 0.11218976974487305 seconds
+Finish round  88
+
+
+That took 0.11403203010559082 seconds
+Finish round  89
+
+
+That took 0.11461281776428223 seconds
+Finish round  90
+
+
+That took 0.12218093872070312 seconds
+Finish round  91
+
+
+That took 0.15027189254760742 seconds
+Finish round  92
+
+
+That took 0.14905285835266113 seconds
+Finish round  93
+
+
+That took 0.10710477828979492 seconds
+Finish round  94
+
+
+That took 0.10804080963134766 seconds
+Finish round  95
+
+
+That took 0.1128988265991211 seconds
+Finish round  96
+
+
+That took 0.10713481903076172 seconds
+Finish round  97
+
+
+That took 0.125075101852417 seconds
+Finish round  98
+
+
+That took 0.15848851203918457 seconds
+Finish round  99
+
+
+That took 0.1050252914428711 seconds
+Finish round  100
+
+
+That took 0.14803624153137207 seconds
+Finish round  101
+
+
+That took 0.14971566200256348 seconds
+Finish round  102
+
+
+That took 0.11532473564147949 seconds
+Finish round  103
+
+
+That took 0.1065683364868164 seconds
+Finish round  104
+
+
+That took 0.1233057975769043 seconds
+Finish round  105
+
+
+That took 0.1041719913482666 seconds
+Finish round  106
+
+
+That took 0.11004042625427246 seconds
+Finish round  107
+
+
+That took 0.14594745635986328 seconds
+Finish round  108
+
+
+That took 0.11123371124267578 seconds
+Finish round  109
+
+
+That took 0.1118779182434082 seconds
+Finish round  110
+
+
+That took 0.1446514129638672 seconds
+Finish round  111
+
+
+That took 0.11445403099060059 seconds
+Finish round  112
+
+
+That took 0.11909222602844238 seconds
+Finish round  113
+
+
+That took 0.1128995418548584 seconds
+Finish round  114
+
+
+That took 0.103057861328125 seconds
+Finish round  115
+
+
+
+
+Initial run time is:  1597551741.3365955
+Final_runtime is:  1597551801.7462258
+That took 60.4096302986145 seconds

@@ -1,0 +1,1180 @@
+That took 0.1560349464416504 seconds
+Finish round  1
+
+
+That took 0.11402606964111328 seconds
+Finish round  2
+
+
+That took 0.12502765655517578 seconds
+Finish round  3
+
+
+That took 0.11202573776245117 seconds
+Finish round  4
+
+
+That took 0.14803314208984375 seconds
+Finish round  5
+
+
+That took 0.15603423118591309 seconds
+Finish round  6
+
+
+That took 0.15503454208374023 seconds
+Finish round  7
+
+
+That took 0.1160283088684082 seconds
+Finish round  8
+
+
+That took 0.32805967330932617 seconds
+Finish round  9
+
+
+That took 0.15303397178649902 seconds
+Finish round  10
+
+
+That took 0.1180267333984375 seconds
+Finish round  11
+
+
+That took 0.11372113227844238 seconds
+Finish round  12
+
+
+That took 0.11202526092529297 seconds
+Finish round  13
+
+
+That took 0.16103577613830566 seconds
+Finish round  14
+
+
+That took 0.12302780151367188 seconds
+Finish round  15
+
+
+That took 0.10902523994445801 seconds
+Finish round  16
+
+
+That took 0.15003347396850586 seconds
+Finish round  17
+
+
+That took 0.10202264785766602 seconds
+Finish round  18
+
+
+That took 0.15503478050231934 seconds
+Finish round  19
+
+
+That took 0.11302518844604492 seconds
+Finish round  20
+
+
+That took 0.10502386093139648 seconds
+Finish round  21
+
+
+That took 0.11402559280395508 seconds
+Finish round  22
+
+
+That took 0.16028499603271484 seconds
+Finish round  23
+
+
+That took 0.15903759002685547 seconds
+Finish round  24
+
+
+That took 0.14803290367126465 seconds
+Finish round  25
+
+
+That took 0.11302566528320312 seconds
+Finish round  26
+
+
+That took 0.15503478050231934 seconds
+Finish round  27
+
+
+That took 0.1560347080230713 seconds
+Finish round  28
+
+
+That took 0.1070241928100586 seconds
+Finish round  29
+
+
+That took 0.10802650451660156 seconds
+Finish round  30
+
+
+That took 0.11300992965698242 seconds
+Finish round  31
+
+
+That took 0.10602378845214844 seconds
+Finish round  32
+
+
+That took 0.15403461456298828 seconds
+Finish round  33
+
+
+That took 0.1580357551574707 seconds
+Finish round  34
+
+
+That took 0.11402630805969238 seconds
+Finish round  35
+
+
+That took 0.11302542686462402 seconds
+Finish round  36
+
+
+That took 0.10702323913574219 seconds
+Finish round  37
+
+
+That took 0.3400764465332031 seconds
+Finish round  38
+
+
+That took 0.10802459716796875 seconds
+Finish round  39
+
+
+That took 0.15403437614440918 seconds
+Finish round  40
+
+
+That took 0.15303444862365723 seconds
+Finish round  41
+
+
+That took 0.10702395439147949 seconds
+Finish round  42
+
+
+That took 0.11017298698425293 seconds
+Finish round  43
+
+
+That took 0.10702395439147949 seconds
+Finish round  44
+
+
+That took 0.15903615951538086 seconds
+Finish round  45
+
+
+That took 0.12202715873718262 seconds
+Finish round  46
+
+
+That took 0.11302614212036133 seconds
+Finish round  47
+
+
+That took 0.11302447319030762 seconds
+Finish round  48
+
+
+That took 0.16203665733337402 seconds
+Finish round  49
+
+
+That took 0.15503549575805664 seconds
+Finish round  50
+
+
+That took 0.10602355003356934 seconds
+Finish round  51
+
+
+That took 0.11202573776245117 seconds
+Finish round  52
+
+
+That took 0.1180267333984375 seconds
+Finish round  53
+
+
+That took 0.12002682685852051 seconds
+Finish round  54
+
+
+That took 0.15888047218322754 seconds
+Finish round  55
+
+
+That took 0.10402345657348633 seconds
+Finish round  56
+
+
+That took 0.15066313743591309 seconds
+Finish round  57
+
+
+That took 0.15203404426574707 seconds
+Finish round  58
+
+
+That took 0.15403485298156738 seconds
+Finish round  59
+
+
+That took 0.1539909839630127 seconds
+Finish round  60
+
+
+That took 0.14103198051452637 seconds
+Finish round  61
+
+
+That took 0.11902713775634766 seconds
+Finish round  62
+
+
+That took 0.11302471160888672 seconds
+Finish round  63
+
+
+That took 0.11402630805969238 seconds
+Finish round  64
+
+
+That took 0.11002421379089355 seconds
+Finish round  65
+
+
+That took 0.1110234260559082 seconds
+Finish round  66
+
+
+That took 0.11162114143371582 seconds
+Finish round  67
+
+
+That took 0.11202502250671387 seconds
+Finish round  68
+
+
+That took 0.1510334014892578 seconds
+Finish round  69
+
+
+That took 0.10202240943908691 seconds
+Finish round  70
+
+
+That took 0.15703630447387695 seconds
+Finish round  71
+
+
+That took 0.14203190803527832 seconds
+Finish round  72
+
+
+That took 0.10602402687072754 seconds
+Finish round  73
+
+
+That took 0.11002492904663086 seconds
+Finish round  74
+
+
+That took 0.10302281379699707 seconds
+Finish round  75
+
+
+That took 0.10402345657348633 seconds
+Finish round  76
+
+
+That took 0.10602378845214844 seconds
+Finish round  77
+
+
+That took 0.11402583122253418 seconds
+Finish round  78
+
+
+That took 0.11402535438537598 seconds
+Finish round  79
+
+
+That took 0.11102509498596191 seconds
+Finish round  80
+
+
+That took 0.1450328826904297 seconds
+Finish round  81
+
+
+That took 0.11302495002746582 seconds
+Finish round  82
+
+
+That took 0.149033784866333 seconds
+Finish round  83
+
+
+That took 0.11202526092529297 seconds
+Finish round  84
+
+
+That took 0.10916662216186523 seconds
+Finish round  85
+
+
+That took 0.12084555625915527 seconds
+Finish round  86
+
+
+That took 0.10402321815490723 seconds
+Finish round  87
+
+
+That took 0.10602402687072754 seconds
+Finish round  88
+
+
+That took 0.12002706527709961 seconds
+Finish round  89
+
+
+That took 0.15203380584716797 seconds
+Finish round  90
+
+
+That took 0.1450333595275879 seconds
+Finish round  91
+
+
+That took 0.1470324993133545 seconds
+Finish round  92
+
+
+That took 0.10802435874938965 seconds
+Finish round  93
+
+
+That took 0.14403247833251953 seconds
+Finish round  94
+
+
+That took 0.15403461456298828 seconds
+Finish round  95
+
+
+That took 0.15103459358215332 seconds
+Finish round  96
+
+
+That took 0.15203428268432617 seconds
+Finish round  97
+
+
+That took 0.10802602767944336 seconds
+Finish round  98
+
+
+That took 0.10602378845214844 seconds
+Finish round  99
+
+
+That took 0.11102461814880371 seconds
+Finish round  100
+
+
+That took 0.14603376388549805 seconds
+Finish round  101
+
+
+That took 0.16203594207763672 seconds
+Finish round  102
+
+
+That took 0.11702680587768555 seconds
+Finish round  103
+
+
+That took 0.12344551086425781 seconds
+Finish round  104
+
+
+That took 0.15203452110290527 seconds
+Finish round  105
+
+
+That took 0.11940860748291016 seconds
+Finish round  106
+
+
+That took 0.1180267333984375 seconds
+Finish round  107
+
+
+That took 0.150223970413208 seconds
+Finish round  108
+
+
+That took 0.11102461814880371 seconds
+Finish round  109
+
+
+That took 0.11502599716186523 seconds
+Finish round  110
+
+
+That took 0.14603114128112793 seconds
+Finish round  111
+
+
+That took 0.11302542686462402 seconds
+Finish round  112
+
+
+That took 0.11402606964111328 seconds
+Finish round  113
+
+
+That took 0.1090242862701416 seconds
+Finish round  114
+
+
+That took 0.10602307319641113 seconds
+Finish round  115
+
+
+That took 0.15203428268432617 seconds
+Finish round  116
+
+
+That took 0.11002445220947266 seconds
+Finish round  117
+
+
+That took 0.11002492904663086 seconds
+Finish round  118
+
+
+That took 0.14103174209594727 seconds
+Finish round  119
+
+
+That took 0.11102461814880371 seconds
+Finish round  120
+
+
+Status code:  429
+WARNING: Can NOT fetch the live quotes from server! 
+That took 0.154402494430542 seconds
+Finish round  1
+
+
+That took 0.15503454208374023 seconds
+Finish round  2
+
+
+That took 0.12704038619995117 seconds
+Finish round  3
+
+
+That took 0.16399264335632324 seconds
+Finish round  4
+
+
+That took 0.149033784866333 seconds
+Finish round  5
+
+
+That took 0.11504650115966797 seconds
+Finish round  6
+
+
+That took 0.12502717971801758 seconds
+Finish round  7
+
+
+That took 0.11702704429626465 seconds
+Finish round  8
+
+
+That took 0.12020373344421387 seconds
+Finish round  9
+
+
+That took 0.12603402137756348 seconds
+Finish round  10
+
+
+That took 0.1495373249053955 seconds
+Finish round  11
+
+
+That took 0.11354947090148926 seconds
+Finish round  12
+
+
+That took 0.15504240989685059 seconds
+Finish round  13
+
+
+That took 0.11002492904663086 seconds
+Finish round  14
+
+
+That took 0.1260378360748291 seconds
+Finish round  15
+
+
+That took 0.11702632904052734 seconds
+Finish round  16
+
+
+That took 0.12329244613647461 seconds
+Finish round  17
+
+
+That took 0.15057897567749023 seconds
+Finish round  18
+
+
+That took 0.1610410213470459 seconds
+Finish round  19
+
+
+That took 0.11202883720397949 seconds
+Finish round  20
+
+
+That took 0.11202430725097656 seconds
+Finish round  21
+
+
+That took 0.12905526161193848 seconds
+Finish round  22
+
+
+That took 0.10699796676635742 seconds
+Finish round  23
+
+
+That took 0.14603281021118164 seconds
+Finish round  24
+
+
+That took 0.1490333080291748 seconds
+Finish round  25
+
+
+That took 0.1250286102294922 seconds
+Finish round  26
+
+
+That took 0.10782384872436523 seconds
+Finish round  27
+
+
+That took 0.15409016609191895 seconds
+Finish round  28
+
+
+That took 0.11602592468261719 seconds
+Finish round  29
+
+
+That took 0.1510789394378662 seconds
+Finish round  30
+
+
+That took 0.11403870582580566 seconds
+Finish round  31
+
+
+That took 0.1275320053100586 seconds
+Finish round  32
+
+
+That took 0.1090250015258789 seconds
+Finish round  33
+
+
+That took 0.12102866172790527 seconds
+Finish round  34
+
+
+That took 0.13202404975891113 seconds
+Finish round  35
+
+
+That took 0.11405038833618164 seconds
+Finish round  36
+
+
+That took 0.14503693580627441 seconds
+Finish round  37
+
+
+That took 0.16509175300598145 seconds
+Finish round  38
+
+
+That took 0.11204719543457031 seconds
+Finish round  39
+
+
+That took 0.10802793502807617 seconds
+Finish round  40
+
+
+That took 0.10402536392211914 seconds
+Finish round  41
+
+
+That took 0.11103057861328125 seconds
+Finish round  42
+
+
+That took 0.10700106620788574 seconds
+Finish round  43
+
+
+That took 0.15004420280456543 seconds
+Finish round  44
+
+
+That took 0.1630263328552246 seconds
+Finish round  45
+
+
+That took 0.12206768989562988 seconds
+Finish round  46
+
+
+That took 0.11702704429626465 seconds
+Finish round  47
+
+
+That took 0.11303877830505371 seconds
+Finish round  48
+
+
+That took 0.1100761890411377 seconds
+Finish round  49
+
+
+That took 0.11204075813293457 seconds
+Finish round  50
+
+
+That took 0.12404775619506836 seconds
+Finish round  51
+
+
+That took 0.15253973007202148 seconds
+Finish round  52
+
+
+That took 0.1521763801574707 seconds
+Finish round  53
+
+
+That took 0.11858534812927246 seconds
+Finish round  54
+
+
+That took 0.10704612731933594 seconds
+Finish round  55
+
+
+That took 0.1511690616607666 seconds
+Finish round  56
+
+
+That took 0.11009502410888672 seconds
+Finish round  57
+
+
+That took 0.11605262756347656 seconds
+Finish round  58
+
+
+That took 0.12159895896911621 seconds
+Finish round  59
+
+
+That took 0.15056967735290527 seconds
+Finish round  60
+
+
+That took 0.10704994201660156 seconds
+Finish round  61
+
+
+That took 0.10703325271606445 seconds
+Finish round  62
+
+
+That took 0.10634040832519531 seconds
+Finish round  63
+
+
+That took 0.12448501586914062 seconds
+Finish round  64
+
+
+That took 0.1165318489074707 seconds
+Finish round  65
+
+
+That took 0.11002469062805176 seconds
+Finish round  66
+
+
+That took 0.11153411865234375 seconds
+Finish round  67
+
+
+That took 0.117706298828125 seconds
+Finish round  68
+
+
+That took 0.10603833198547363 seconds
+Finish round  69
+
+
+That took 0.16608285903930664 seconds
+Finish round  70
+
+
+That took 0.10703158378601074 seconds
+Finish round  71
+
+
+That took 0.12053275108337402 seconds
+Finish round  72
+
+
+That took 0.1430344581604004 seconds
+Finish round  73
+
+
+That took 0.11222124099731445 seconds
+Finish round  74
+
+
+That took 0.11905598640441895 seconds
+Finish round  75
+
+
+That took 0.11069035530090332 seconds
+Finish round  76
+
+
+That took 0.10478401184082031 seconds
+Finish round  77
+
+
+That took 0.11215043067932129 seconds
+Finish round  78
+
+
+That took 0.10404157638549805 seconds
+Finish round  79
+
+
+That took 0.10905790328979492 seconds
+Finish round  80
+
+
+That took 0.1230316162109375 seconds
+Finish round  81
+
+
+That took 0.1160426139831543 seconds
+Finish round  82
+
+
+That took 0.11104011535644531 seconds
+Finish round  83
+
+
+That took 0.11787247657775879 seconds
+Finish round  84
+
+
+That took 0.11355113983154297 seconds
+Finish round  85
+
+
+That took 0.10925006866455078 seconds
+Finish round  86
+
+
+That took 0.11472749710083008 seconds
+Finish round  87
+
+
+That took 0.12001895904541016 seconds
+Finish round  88
+
+
+That took 0.11953616142272949 seconds
+Finish round  89
+
+
+That took 0.10853433609008789 seconds
+Finish round  90
+
+
+That took 0.1506202220916748 seconds
+Finish round  91
+
+
+That took 0.10898447036743164 seconds
+Finish round  92
+
+
+That took 0.11199021339416504 seconds
+Finish round  93
+
+
+That took 0.15377163887023926 seconds
+Finish round  94
+
+
+That took 0.11302495002746582 seconds
+Finish round  95
+
+
+That took 0.15217971801757812 seconds
+Finish round  96
+
+
+That took 0.12142467498779297 seconds
+Finish round  97
+
+
+That took 0.1577296257019043 seconds
+Finish round  98
+
+
+That took 0.16108417510986328 seconds
+Finish round  99
+
+
+That took 0.11792802810668945 seconds
+Finish round  100
+
+
+That took 0.11002659797668457 seconds
+Finish round  101
+
+
+That took 0.11502814292907715 seconds
+Finish round  102
+
+
+That took 0.15566682815551758 seconds
+Finish round  103
+
+
+That took 0.11333632469177246 seconds
+Finish round  104
+
+
+That took 0.12253642082214355 seconds
+Finish round  105
+
+
+That took 0.15031862258911133 seconds
+Finish round  106
+
+
+That took 0.11517500877380371 seconds
+Finish round  107
+
+
+That took 0.10202288627624512 seconds
+Finish round  108
+
+
+That took 0.11393928527832031 seconds
+Finish round  109
+
+
+That took 0.11223435401916504 seconds
+Finish round  110
+
+
+That took 0.11002421379089355 seconds
+Finish round  111
+
+
+That took 0.10654449462890625 seconds
+Finish round  112
+
+
+That took 0.16145086288452148 seconds
+Finish round  113
+
+
+That took 0.12629437446594238 seconds
+Finish round  114
+
+
+That took 0.1179051399230957 seconds
+Finish round  115
+
+
+
+
+Initial run time is:  1597551740.8081076
+Final_runtime is:  1597551801.236059
+That took 60.42795133590698 seconds
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
+WARNING: The file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_accessToken_cache.txt  does NOT exists!                   OR stop flag file  C:\Users\Owner\.spyder-py3\.Tuong_TDA_auth_stop.txt  is present                   Please rerun method .useAuthCode_getAccessKey() to authenticate again and produce the file
